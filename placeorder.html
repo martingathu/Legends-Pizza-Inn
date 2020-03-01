@@ -26,7 +26,123 @@
             
         </div>
         
+        <div>
+             <h3>pizza name</h3>
+             <label>Type
+                <select id="type">
+                    <option value="Hawaiina">Hawaiina</option>
+                    <option value="ChickenMushrooms">ChickenMushrooms</option>
+                    <option value="Bbq Steak">Bbq Steak</option>
+                    <option value="Peri Peri Chicken">Peri Peri Chicken</option>
+                    <option value="Chicken Tikka">Chicken Tikka</option>
+                    <option value="Veg Tikka">Veg Tikka</option>
+                    <option value="Mergherita">Mergherita</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                </select>
+             </label>
+             <label>How many pizzas are you ordering (minimum 1):
+                <input type="number" id="number" type="number" name="amount" min="1" value="1" placeholder="Enter a number" >
+            </label>
+        </div>
+    </div>
+    <div class="row container-fluid ">
+       <div class="col-12 col-md-6 col-lg-4 toppings">
+            <div class="size">
+                <p><em>Required*</em></p>
+                <h3>Please select the size:</h3>
+            <input type="radio" name="size" value="0"> Pizza Pie<br>
+                <input type="radio" name="size" value="1"> Regular<br>
+                <input type="radio" name="size" value="2"> Medium<br>
+                <input type="radio" name="size" value="3"> Large<br>  
+            </div>
+
+            <div>
+                <h3>Please select the crusting:</h3>
+                <input type="radio" name="crust" value="50"> Crispy<br>
+                <input type="radio" name="crust" value="200"> Stuffed<br>
+                <input type="radio" name="crust" value="100"> Glottin-free<br>
+                <input type="radio" name="crust" value="0"> None<br>  
+            </div>
+        </div>
+
+    
+        <div class="meat toppings col-12 col-md-6 col-lg-4">
+            <p><em>optional</em></p>
+            <h3>Add Meat Toppings:</h3>
+    
+            <label class="container topping">Extra Macon
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Bqb Chicken
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Bqb Steak
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Chicken Tikka
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping" >Extra Sandwich Beef
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Peperoni
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span> Peri Peri Chicken
+            </label>
+        </div>
+        <div class="veg toppings col-12 col-md-6 col-lg-4">
+            <p><em>optional</em></p>
+            <h3>Add Veg Toppings:</h3>
+    
+            <label class="container topping">Extra Chilli
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Mushrooms
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Olives
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Onions
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Pineapple
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Sweetcorn
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container topping">Extra Tomatoes
+                <input type="checkbox" name="topping" value="100">
+                <span class="checkmark"></span> 
+            </label>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subtotal">
+            <button type="submit" class="btn btn-primary" id="submit">Add To Cat</button>
+            <div class="subtotal">
+                <p id="subtotal"></p>
+            </div>
+        </div>
+        
        
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
