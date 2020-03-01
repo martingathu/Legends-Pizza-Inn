@@ -141,7 +141,53 @@
             </div>
         </div>
         
-       
+        <div class="deliver">
+            <p>Do you need your order to be delivered to your location? <br> press the <strong>Delivery</strong>  button else proced to checkout</p>
+            <button type="button" class="btn btn-success" id="delivery" onclick="myFunction()">Delivery</button>
+            <button type="submit" class="btn btn-success" id="checkout">Checkout</button>
+            
+        </div>
+        <div>
+            <form class="delivery">
+                <div class="row">
+                    <div class="col-6">
+                        <label>Name
+                            <input type="text" id="name" placeholder="Enter Your Name" required>
+                        </label>
+                    </div>
+                    <div class="col-6">
+                    <label>contact
+                        <input type="Number" id="contact" placeholder="contact" required>
+                    </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label>Location
+                            <select id="location">
+                                <option value="0">CBD</option>
+                                <option value="1">Community Area</option>
+                                <option value="2">Hurlingham</option>
+                                <option value="3">Muthaiga</option>
+                                <option value="4">Ngaong Road</option>
+                                <option value="5">Pangani</option>
+                                <option value="6">South B</option>
+                                <option value="7">South C</option>
+                                <option value="8">Thika Road</option>
+                                <option value="9">WestLands</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="col-6">
+                        <label>HSE No + Street Name
+                            <input type="text" id="hse" placeholder="HSE No / Street Name" required>
+                        </label>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success" id="confirm" onclick="myFunction()">confirm</button>
+                <P id="total"></P>
+            </form>
+        </div>
     </div>
 
     <script src="js/jquery.js"></script>
