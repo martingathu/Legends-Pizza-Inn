@@ -111,4 +111,24 @@ nav>ul>li>a:hover {
     border: 2px solid gainsboro;
     padding: 2%;
   }
- 
+  body{
+      margin-left: 2%;
+  }
+  em{
+      color: red;
+  }
+  #intro{
+      color: green;
+      font-style: italic;
+  }
+  h3{
+      padding-top: 5px;
+      font-family: 'Ropa Sans';
+  }
+  .deliver{
+      display: none;
+  }
+  form{
+      padding: 5%;
+      display: none;
+  }
