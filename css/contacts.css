@@ -36,4 +36,58 @@ nav>ul>li>a:hover {
     width: 70%;
     text-align: center;
 }
-.
+.contact {
+    color: white;
+    padding-top: 5%;
+}
+
+#message {
+    height: 200px;
+}
+
+.contact form {
+    text-align: center;
+    padding-bottom: 10%;
+}
+  
+.contact input {
+    margin-bottom: 3%;
+    background: transparent;
+    color: white;
+}
+  
+.contact textarea {
+    background: transparent;
+    color: white;
+}
+  
+  
+.contact textarea::placeholder, .contact input::placeholder {
+    background: transparent;
+    color: #fff;
+}
+
+.post {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+
+ .social{
+     text-align: center;
+     margin-top: 2%;
+ }
+footer{
+   text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 2%;
+   margin-bottom:5px;
+   font-weight: bolder;
+}.container{
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
