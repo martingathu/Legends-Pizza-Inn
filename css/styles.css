@@ -1,0 +1,40 @@
+nav {
+    border-bottom: 20px solid #3498DB;
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 5px solid #dba24a;
+    padding: 5px;
+    display: flex;    
+}
+nav ul {
+    display: flex;
+    text-align: right;    
+}
+nav ul li {
+    list-style-type: none;
+    
+}
+nav ul li a {
+    font-size: larger;
+    padding: 0px 10px 0 10px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #e1d800;  
+}
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px black, insert #E8DAEF;
+    background: #ce0000;
+    color: white;
+}
+.topnav{
+    text-align: right;
+}
+#logo{
+    height: auto;
+    width: 70%;
+    text-align: center;
+}
+
+
