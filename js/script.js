@@ -41,3 +41,24 @@
       
       });
 
+
+    //show the delivery form
+    $("#delivery").click(function(){
+      $(".delivery").show()
+    });
+    //validate delivery form
+    $("#confirm").click(function(){
+      event.preventDefault()
+      var town=["CBD","Community Area","Hurlingham","Muthaiga", "Ngaong Road","Pangani","South B","South C","Thika Road","WestLands"]
+      var charges=[50, 100,100,150,100,50,100,100,100,50]
+      var name = $("#name").val();
+      var contact = $("#contact").val();
+      var location = town[$("#location").val()];
+      var hse = $("#hse").val();
+      var delivery=charges[$("#location").val()];
+      if (name == '' || contact == '' || location == ''|| hse== '' ){
+        alert("Please fill all fields");        
+      } else {
+        alert('Hello ' +name + " we have received your order. And will be deliverd to "+hse+' Street, '+location + " in less than 30 Min. Delivery charges: Ksh "+delivery);
+       }
+    });
