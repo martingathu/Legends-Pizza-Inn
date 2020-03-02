@@ -88,6 +88,11 @@ footer{
 }.container{
     background-color: white;
 }
-h2{
+h3{
     text-align: center;
+    
+}
+.about{
+   padding-left: 10%;
+   padding-right: 10%;
 }
