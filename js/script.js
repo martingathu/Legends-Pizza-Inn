@@ -37,7 +37,7 @@
       });
       $("#checkout").click(function(){
         alert("Thank you for shopping with us, pick up your order at any counter near you")
-        $("#summary").html("Your order summary is as follows: <br/> Type:" + type + "<br/>" + " Size: " + getSize(size) + "<br/>" + " Price: Kshs " + price[size] + "<br/>"+ " crust: Kshs " + crust + "<br/>"+ " Toppings: Kshs "+ sumToppings + "<br/>" +" Total: Kshs " + subtotals);
+        
       })
       
       });
@@ -77,5 +77,7 @@
         alert("Please fill all fields");        
       } else {
         alert('Hello ' +name + " we have received your order. And will be deliverd to "+hse+' Street, '+location + " in less than 30 Min. Delivery charges: Ksh "+delivery);
+        $("#summary").html("Your order summary is as follows: <br/> Type:" + type + "<br/>" + " Size: " + getSize(size) + "<br/>" + " Price: Kshs " + price[size] + "<br/>"+ " crust: Kshs " + crust + "<br/>"+ " Toppings: Kshs "+ sumToppings + "<br/>" +" Total: Kshs " + subtotals);
        }
+
     });

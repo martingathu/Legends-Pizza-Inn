@@ -36,13 +36,14 @@ nav>ul>li>a:hover {
     width: 70%;
     text-align: center;
 }
-img{
+.img_wrap img{
     width: 400px;
     height: 300px;
 }
 
 body{
     text-align: center;
+   
 }
 
 .carousel-item>img{
@@ -55,5 +56,17 @@ body{
 .carousel-caption>h3{
     color:#ce0000;
     
+}
+.social{
+    text-align: center;
+    margin-top: 2%;
+}
+footer{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom:5px;
+  font-weight: bolder;
 }
 

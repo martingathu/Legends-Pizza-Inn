@@ -113,6 +113,7 @@ nav>ul>li>a:hover {
   }
   body{
       margin-left: 2%;
+      
   }
   em{
       color: red;
@@ -132,3 +133,15 @@ nav>ul>li>a:hover {
       padding: 5%;
       display: none;
   }
+  .social{
+    text-align: center;
+    margin-top: 2%;
+}
+footer{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom:5px;
+  font-weight: bolder;
+}
