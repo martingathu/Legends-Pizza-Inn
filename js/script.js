@@ -27,9 +27,9 @@
         var subtotals = ((price[size]) + crust + sumToppings)* amount;
         
             if (size=='undefined'|| (price[size])=="undefined" || crust=='NaN' || sumToppings=='' ||subtotals=="NaN"){         
-              $("#subtotal").html("CONFIRM ATLEAST YOU HAVE SELECTED THE SIZE & CRUST!")
+              $("#subtotal").html("CONFIRM ATLEAST YOU HAVE SELECTED THE SIZE, CRUST & ATLIST ONE TOPPING!")
             }else{
-          $("#subtotal").html("Your Pick: Type:" + type + " Size: " + getSize(size) + " Price: Kshs " + price[size] + " crust: Kshs " + crust + " Toppings: Kshs "+ sumToppings +" Total: Kshs " + subtotals);
+          $("#subtotal").html("<strong>Your Pick:</strong>" + "<br/>"+"Type:" + type + "<br/>"+ " Size: " + getSize(size)+ "<br/>"+" Number of Pizzas ordered " + amount+ "<br/>"+ " Price: Kshs " + price[size]+"@"+ "<br/>" + " crust: Kshs " + crust + "<br/>"+ " Toppings: Kshs "+ sumToppings + "<br/>"+" <strong>Total: Kshs </strong>" + subtotals);
           $(".deliver").show();
          
         } 
