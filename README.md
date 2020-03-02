@@ -17,7 +17,7 @@ No known bugs at the moment
 + JQuery
 
 ## GitHub link
-To open My-Portfolio [Click Here](https://github.com/martingathu/Legends-Pizza-Inn/)
+To open Legends Pizza Inn [Click Here](https://martingathu.github.io/Legends-Pizza-Inn/)
 ## Support and contact details
 for any querries contact me via Martin5gathu@gmail.com.
 
